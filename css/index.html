@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(to left, black,#333);
+        }
+     nav{
+         background-color: #333;
+        height: 60px;
+     }
+     nav ul{
+         margin: 0;
+         padding: 0;
+         list-style-type: none;
+     }
+     nav li {
+         float: left;
+     }
+     nav li a{
+         display: inline-block;
+         color:white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         line-height: 2;
+     }
+     nav li a:hover,  #dropButton a:hover{
+         color:white;
+         background-color: red;
+     }
+     #dropButton{
+         background-color: white;
+         position: absolute;
+         z-index: 1;
+         display: none;
+         width: 105.81px;
+     }
+     #dropButton a{
+         color: #333;
+         display: block;
+     }
+     #dropDown:hover  #dropButton{
+      display: block;
+     }
+     #js{
+         padding: 14px 0px;
+     }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> <a href=" ">HOME</a> </li>
+            <li> <a href=" ">YOUTUBE</a> </li>
+            <li id="dropDown"> <a href=" ">COURSOS</a> 
+            <div id="dropButton">
+                <a href="">HTML5</a>
+                <a href="">CSS3</a>
+                <a href="" id="js">JAVASCRIPT</a>
+            </div>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>
