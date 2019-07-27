@@ -1,13 +1,15 @@
-// var car = {
-//     name:"BMW",
-//     model:"2019"
-//     ,color:"White"
-//             };
-var car = {};
-car.name = "BMW";
-car.model= 2019;
+var age = 19;
+console.log("Age: \n"+age);
+//alert("Age: \n"+age);
+var name = "Coder Shiyar";
+var level = "Very good";
 
-document.getElementById("object").innerHTML= "Name: "+ car.name
-+ " <br> Model: "+ car.model;
+document.getElementById("h1").innerHTML =name +" "+ level;
 
 
+
+
+
+
+
+ 

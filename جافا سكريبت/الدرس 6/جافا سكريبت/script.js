@@ -1,15 +1,37 @@
-var name = "Diyar";
-var age = 19;
-var isMarried = true;
-var country = "Netherlands";
+var Name;
+var name;
+var _name;
+var $name;
+var name1;
 
-var id_1 = ["Diyar",19,true,"Netherlands"];
+var age=19;
+var Age=18;
+console.log("age= "+ age);
+console.log("Age= "+ Age);
+console.log(typeof age);
 
-console.log("Name: "+ id_1[0] + "\n Age: "+ id_1[1]+ "\nMarried: "+id_1[2]
-+ "\nCountry: " + id_1[3] 
-);
+// اسماء variable الذي يمكنك استخدامها
+// var i ;
+// var Name;
+// var name;
+// var _name;
+// var $name;
+// var TheNumberisVeryBig;
+// var My_name_is;
 
-// console.log(id_1.indexOf("Netherlands"));
+// // امثلة من اسماء غير ممكنة
+// var 12yaer;     // _ لانه بدات بالرقم بدل الحرف او 
+// var My-Name;    // لانه اسم يحتوي على اشكال خاصة فهذا شي غير مسموح
+// var My&name;    // لانه اسم يحتوي على اشكال خاصة فهذا شي غير مسموح
+// var break;      // لانه يحتوي على كلمات محجوزة في جافا سكريبت
+// var false;      // ايضا لانه يحتوي على كلمات محجوزة في جافا سكريبت
 
-// console.log(id_1.length);
 
+
+
+
+
+
+
+
+ 

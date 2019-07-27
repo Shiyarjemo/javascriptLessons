@@ -1,7 +1,17 @@
-var x = 2 ** 3;
-    x = Math.pow(2,3);
+var car = {
+    name:"BMW",
+    model:"2019"
+    ,color:"White"
+            };
 
+car.model = "BMW2019";
 
-var result = (2+3)*10;
+// delete car.color;
+console.log(car.color);
+// var car = {};
+// car.name = "BMW";
+// car.model= 2019;
 
-    document.getElementById("result").innerHTML = result;
+// document.getElementById("object").innerHTML= "Name: "+ car.name
+// + " <br> Model: "+ car.model;
+

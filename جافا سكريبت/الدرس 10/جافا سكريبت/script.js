@@ -1,25 +1,32 @@
-var isOpen = false;
 var number = 4;
-var number2= 6;
+// console.log(++number);
+// Operator 	Description                      الوصف
+// +	        Addition                        الجمع
+// -	        Subtraction                     الطرح
+// *	        Multiplication                  الضرب
+// **	        Exponentiation      مضاعفة قوة العدد
+// /	        Division                      القسمة
+// %	        Modulus                للعرض الباقي
+// ++	        Increment           للزيادة 1 للعدد
+// --	        Decrement          للنقص 1 من العدد
 
-if(number!=number2){
-alert("مفتوح");
-}
+// var firstName = "Shiyar";
+// var lastName  = " Jamo";
+// firstName += lastName;
+
+var number1 = 10;
+var number2 = 20;
+
+number2/=number1;
 
 
-if ( الشرط ) {
-    // الأمر الذي يتم تنفيذه في حالة تحقق الشرط
-  }
+console.log(number2);
 
-
-  
-//      إستخدامه     الرمز	
-//      >	        علامة أكبر من
-//      <	        علامة أصغر من
-//      >=	        علامة أكبر من أو يساوي
-//      <=	        علامة أصغر من أو يساوي
-//      ==	        القيمتين متساويتين بغض النظر 
-//                  عن نوع البيانات أي أن القيمة 1 تساوي القيمة '1'
-//      !=	        القيمتين غير متساويتين
-//      ===     	القيمتين متساويتين ومن نفس نوع البيانات أي أن القيمة 1 لا تساوي القيمة '1'
-//      !==     	القيمتين غير متساويتين مع الأخذ في الإعتبار نوع البيانات
+// Operator	    Example مثال   Same As مشابه
+// =	         x = y	        x = y
+// +=	        x += y      	x = x + y
+// -=	        x -= y	        x = x - y
+// *=	        x *= y      	x = x * y
+// /=	        x /= y	        x = x / y
+// %=	        x %= y	        x = x % y
+// **=	        x **= y	        x = x ** y

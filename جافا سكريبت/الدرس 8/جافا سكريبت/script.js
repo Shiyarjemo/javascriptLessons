@@ -1,32 +1,15 @@
-var number = 4;
-// console.log(++number);
-// Operator 	Description                      الوصف
-// +	        Addition                        الجمع
-// -	        Subtraction                     الطرح
-// *	        Multiplication                  الضرب
-// **	        Exponentiation      مضاعفة قوة العدد
-// /	        Division                      القسمة
-// %	        Modulus                للعرض الباقي
-// ++	        Increment           للزيادة 1 للعدد
-// --	        Decrement          للنقص 1 من العدد
+var name = "Diyar";
+var age = 19;
+var isMarried = true;
+var country = "Netherlands";
 
-// var firstName = "Shiyar";
-// var lastName  = " Jamo";
-// firstName += lastName;
+var id_1 = ["Diyar",19,true,"Netherlands"];
 
-var number1 = 10;
-var number2 = 20;
+console.log("Name: "+ id_1[0] + "\n Age: "+ id_1[1]+ "\nMarried: "+id_1[2]
++ "\nCountry: " + id_1[3] 
+);
 
-number2/=number1;
+// console.log(id_1.indexOf("Netherlands"));
 
+// console.log(id_1.length);
 
-console.log(number2);
-
-// Operator	    Example مثال   Same As مشابه
-// =	         x = y	        x = y
-// +=	        x += y      	x = x + y
-// -=	        x -= y	        x = x - y
-// *=	        x *= y      	x = x * y
-// /=	        x /= y	        x = x / y
-// %=	        x %= y	        x = x % y
-// **=	        x **= y	        x = x ** y
