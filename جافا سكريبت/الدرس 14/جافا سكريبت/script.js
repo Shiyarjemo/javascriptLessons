@@ -1,6 +1,7 @@
-
-var count = 1;
+var count = 0;
 while(count<=100){
-    document.getElementById("while-test").innerHTML += "Student: "+ count + "<br>";
-    ++count;
+document.getElementById("while-loop").innerHTML+="Student: "+ count + "<br>";
+
+++count;
 }
+
