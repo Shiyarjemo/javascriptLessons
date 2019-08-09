@@ -1,15 +1,15 @@
-// document.getElementById("body")
-// .style.backgroundImage = "linear-gradient(to left, #000000e3, #232222d9)"
 
-var body = document.getElementById("body");
-body.style.backgroundImage = "linear-gradient(to left, #000000e3, #232222d9)";
+alert(location.pathname);
+// location.protocol  Return the protocol of the current URL:
+// location.href returns the href (URL) of the current page
+// location.hostname returns the domain name of the web host
+// location.pathname إرجاع المسار واسم الملف للصفحة الحالية
 
-var logo = document.getElementById("logo");
-logo.style.width = "100px";
-logo.style.position= "absolute";
-logo.style.top = "50%";
-logo.style.left = "50%";
-logo.style.transform= "translate(-50%, -50%)";
+// location.assign loads a new document
+// locatio.replace();
+// location.reload();
+
+
 
 
 

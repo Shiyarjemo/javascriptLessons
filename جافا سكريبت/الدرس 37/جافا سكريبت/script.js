@@ -1,15 +1,20 @@
-// document.getElementById("body")
-// .style.backgroundImage = "linear-gradient(to left, #000000e3, #232222d9)"
+function reload(){
+    location.reload();
+}
+function assign(){
+    location.assign("https://www.youtube.com/"); 
+}
+function replace(){
+    location.replace("page2.html");
+}
+// location.reload();
 
-var body = document.getElementById("body");
-body.style.backgroundImage = "linear-gradient(to left, #000000e3, #232222d9)";
+// location.assign()
 
-var logo = document.getElementById("logo");
-logo.style.width = "100px";
-logo.style.position= "absolute";
-logo.style.top = "50%";
-logo.style.left = "50%";
-logo.style.transform= "translate(-50%, -50%)";
+// location.replace();
+
+
+
 
 
 

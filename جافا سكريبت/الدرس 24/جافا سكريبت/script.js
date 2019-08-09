@@ -1,36 +1,61 @@
-var color;
-class Change_Background{
-    constructor(){
-        
-        document.getElementById("color_black").addEventListener("click", ()=>{
-            this.change_background("black");
-        });
-
-        document.getElementById("color_red").addEventListener("click", ()=>{
-            this.change_background("red");
-        });
-
-        this.change_background(localStorage.getItem("color"));
-        
-    }
-    change_background(color){
-       
-        if(color =="black"){
-            document.getElementById("body").style.background = color;
-        }
-        else if(color =="red"){
-            document.getElementById("body").style.background = color;
-        }
-
-        localStorage.setItem("color",color);
-        document.getElementById("remove")
-        .addEventListener("click",function removeData(){
-            localStorage.removeItem("color");
-        });
-    }
-
-
-
+//localStorage.setItem("Key",value);
+// localStorage.getItem("Key");
+//localStorage.removeItem("Key");
+if(localStorage.getItem("Name")==null){
+var setName = prompt("ضع اسمك");
+localStorage.setItem("Name",setName);
 }
 
-onload = new Change_Background();
+function removeItem(){
+    localStorage.removeItem("Name");
+}
+
+document.getElementById("getName").innerHTML = "اهلا بك " + localStorage.getItem("Name");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.body.clientHeight
+// document.body.clientWidth
+// window.innerHeight  
+// window.innerWidth
+
+
+// window.open() - open a new window   فتح نافذة جديدة
+// window.close() - close the current window  اغلاق نافذة الحالية
+// window.moveTo() - move the current window    نقل نافذة الحالية
+// window.resizeTo() - resize the current window  إعادة ضبط حجم الشاشة الحالية
+
+
+
