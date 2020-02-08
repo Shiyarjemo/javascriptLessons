@@ -33,3 +33,9 @@
 
 
 
+//let text = "he learn javascript";
+//text = text.charAt(0).toUpperCase() + text.slice(1);
+//text = text.replace(text,text+".");
+//alert(text);
+// text = text.charAt(0).toUpperCase() + text.slice(1);
+// alert(text);
